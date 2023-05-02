@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;;  
+    width: 100%vh;
+    height: 100%vh;  
+}
+
+header{
+    background-color: rgb(53, 58, 64);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 5em;    
+    width: 100%vw;
+}
+
+#logo{
+    height: 5em;
+}
+
+#titulocabecera{
+    margin-left: 2em;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: larger;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color:rgb(103, 128, 150);
+    margin-inline: 0.5em;
+
+}
+
+nav a:hover{
+    color: white;
+}
+
+#navegador{
+    font-size: medium;
+    display: flex; 
+    align-items: center;
+    margin-right: 1em;
+    justify-content: space-around;
+    float: right;   
+}
+
+main{
+    margin-top: 0;
+    height:40em;
+    background-image: url(./ba1.jpg);
+    background-blend-mode:soft-light;
+    background-size:cover;
+    background-attachment: scroll;
+    background-repeat:no-repeat;
+}
+
+#tituloconf{
+    color: white;
+}
+
+#tickets{
+    color: rgb(44, 142, 65)
+}
+
+.presentacion{
+    color: white;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    float: right;
+    text-align: right;
+    margin-right: 6.25em;
+    margin-top: 19em;
+          
+}
+
+#botones1 a{
+    color: white;
+    text-decoration: none;
+    margin-top: 1.25em;
+    padding: 0.31em;
+    align-self: center;
+}
+
+#quiero{
+    background-color:transparent;
+    border: 0.06em;
+    border-style:solid;
+    border-color: white;
+    border-radius: 5%;
+    
+}
+
+#comprar{
+    background-color: rgb(41, 167, 68);
+    border-radius: 5%;
+}
+
+#conocea{
+    text-align: center;
+    padding: 1.25em;
+}
+
+#oradores{
+    display: flex;
+    justify-content:space-evenly;
+    padding-inline: 3.12em;
+}
+
+.cajas{
+    width: 18.82em;
+    height: 32.5em;
+    border: 0.06em solid #E2DBDA;
+    border-radius: 1%;
+}
+
+.fotos{
+    width: 18.75em;
+    height: 18.75em;
+}
+
+#content{
+    padding: 0.31em;
+}
+
+.java{
+    background-color: rgb(254, 193, 4);
+    padding-inline: 0.31em;
+}
+
+.react{
+    background-color: rgb(22, 163, 183);
+    padding-inline: 0.31em;
+    color: white;
+}
+
+#negocios{
+    background-color: rgb(106, 117, 123);
+    padding-inline: 0.31em;
+    color:white;
+}
+
+#startups{
+    background-color: rgb(220, 54, 68);
+    padding-inline: 0.31em;
+    color:white;
+}
+
+#imagenytexto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%vh;
+    margin-top: 3.12em;
+    min-width: 100%vh;
+    justify-content:space-between;
+    
+}
+
+#bloquederecha{
+    background-color: rgb(53, 58, 64);
+    color: white;
+    padding: 1.87em;
+    width: 50%vh;
+}
+
+#imagenytexto img{
+    width: 50%vh;
+    height: 25em;
+
+}
+
+#convierte{
+    margin-top: 1.87em;
+    text-align: center;
+    color: rgb(35, 38, 43);
+}
+
+#convierte h2{
+    font-size:xx-large;
+}
+
+#convierte h4{
+    font-size: small;
+}
+
+#convierte h5{
+    font-variant-caps:all-small-caps;
+    font-size: medium;
+}
+
+#form h6{
+    font-size: small;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%vh;
+    height: 28.12em;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#form{
+    color: rgb(106, 117, 123);
+}
+
+#nombre, #apellido{
+    width:30em;
+    height: 1.87em;
+    border: 0.06em solid rgb(121, 131, 132);
+    color: rgb(121, 131, 132);
+    border-radius: 3%;
+    padding: 0.31em;
+}
+
+#nya{
+    min-width: 42.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0.62em;
+}
+
+#textarea{
+    max-width: 42.5em;
+    min-width: 42.5em;
+    min-height: 6.25em;
+    max-height: 9.37em;
+    border: 0.06em solid rgb(121, 131, 132);
+    color: rgb(121, 131, 132);
+    border-radius: 1%;
+    padding: 0.62em;
+    font-size: larger;
+}
+
+#boton{
+    width: 61.3em;
+    height: 2.87em;
+    border: 0.06em solid rgb(150, 201, 62);
+    color: white;
+    background-color: rgb(150, 201, 62);
+    border-radius: 1%;
+}
+
+footer nav{
+    background-color: rgb(28, 63, 82);
+    width: 100%vw;
+    height: 6.25em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
